@@ -1,44 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="style.css">
-      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-      <title>Together</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <title>Nguyên X Nguyên</title>
 </head>
 <body>
-     <div id="wrapper">
-           <h1>LOVE DAYS</h1>
+    <div id="wrapper">
+        <!-- <div id="dev_info">
+            <p style="color:#e1e1b8;" ><b>Dev by Phạm Nhứt Duy Nguyên</b></p>
+        </div> -->
+        <h1>LOVE DAYS</h1>
 
-           <div id="clock-box">
-                 <div id="clock">
-                       <date>0 DAYS</date>
-                       <time>00:00:00</time>
-                  </div>
+        <div id="clock-box">
+                <div id="clock">
+                    <date>0 DAYS</date>
+                    <time>00:00:00</time>
+                </div>
+        </div>
+        
+        <div id="info">
+                <div class="one">
+                    <img src="img/nguyen1.jpg" class="avt">
+                    <p>Phạm Nhứt Nguyên</p>
+                </div>
+                <div id="heart">
+                    ❤<anni>...</anni>
+                </div>
+                <div class="two">
+                    <img src="img/nguyen2.jpg" class="avt">
+                    <p>Phạm Duy Nguyên</p>
+                </div>
+        </div>
+        <div id="app-cover">
+            <!-- <div id="bg-artwork"></div> -->
+            <!-- <div id="bg-layer"></div> -->
+            <div id="player">
+                <div id="player-track">
+                    <div id="album-name"></div>
+                    <div id="track-name"></div>
+                    <div id="track-time">
+                        <div id="current-time"></div>
+                        <div id="track-length"></div>
+                    </div>
+                    <div id="s-area">
+                        <div id="ins-time"></div>
+                        <div id="s-hover"></div>
+                        <div id="seek-bar"></div>
+                    </div>
+                </div>
+                <div id="player-content">
+                    <div id="album-art">
+                        <img src="img/love.jpg" class="active" id="_1">
+                        <div id="buffer-box">Buffering ...</div>
+                    </div>
+                    <div id="player-controls">
+                        <div class="control">
+                            <div class="button" id="play-previous">
+                                <i class="fas fa-backward"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-pause-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-next">
+                                <i class="fas fa-forward"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div id="info">
-                  <div class="one">
-                        <img src="img/nguyen1.jpg" class="avt">
-                        <p>Phạm Nhứt Nguyên</p>
-                  </div>
-                  <div id="heart">
-                        ❤<anni>...</anni>
-                  </div>
-                  <div class="two">
-                        <img src="img/nguyen2.jpg" class="avt">
-                        <p>Phạm Duy Nguyên</p>
-                  </div>
-            </div>
-            
-            <div id="music">
-                  <audio loop autoplay controls>Your browser does not support the audio element.</audio>
-            </div>
-            <footer>Thank you for your love 💕</footer>
-      </div> 
-      
-      <script src="app.js"></script>
+        </div>
+
+        <!--
+        <div id="music">
+                <audio loop autoplay controls>Your browser does not support the audio element.</audio>
+        </div>
+    -->
+        <footer>Thank you for your love 💕</footer>
+    </div> 
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="js/musicplayer.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/hoaroiweb.js"></script>     
 </body>
+<a href="https://github.com/phamnhutduynguyen/lovedays" id="ribbon" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 50;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 </html>
