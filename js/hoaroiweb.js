@@ -1,4 +1,4 @@
-var pictureSrc ="https://anonyviet.com/resource/hoaroi/hoadao.png"; //the location of the snowflakes
+var pictureSrc ="img/hoadao.png"; //the location of the snowflakes
 var pictureWidth = 20; //the width of the snowflakes
 var pictureHeight = 20; //the height of the snowflakes
 var numFlakes = 10; //the number of snowflakes

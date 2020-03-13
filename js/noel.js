@@ -1,4 +1,4 @@
-document.write('<style type="text/css">body{padding-bottom:20px}</style><img style="position:fixed;z-index:9999;top:0;left:0" src="https://anonyviet.com/resource/tuyetroi/topleft.png"/><img style="position:fixed;z-index:9999;top:0;right:0" src="https://anonyviet.com/resource/tuyetroi/topright.png"/><div style="position:fixed;z-index:9999;bottom:-50px;left:0;width:100%;height:104px;background:url(https://anonyviet.com/resource/tuyetroi/footer-christmas.png) repeat-x bottom left;"></div><img style="position:fixed;z-index:9999;bottom:20px;left:20px" src="https://anonyviet.com/resource/tuyetroi/bottomleft.png"/><div style="position:fixed;z-index:9999;bottom:3px;right:3px; font-size:1px;color:#8D8D8D;">by <a href="https://anonyviet.com">AnonyViet</a></div>');
+document.write('<style type="text/css">body{padding-bottom:20px}</style><img style="position:fixed;z-index:9999;top:0;left:0" src="img/topleft.png"/><img style="position:fixed;z-index:9999;top:0;right:0" src="img/topright.png"/><div style="position:fixed;z-index:9999;bottom:-50px;left:0;width:100%;height:104px;background:url(img/footer-christmas.png) repeat-x bottom left;"></div><img style="position:fixed;z-index:9999;bottom:20px;left:20px" src="img/bottomleft.png"/><div style="position:fixed;z-index:9999;bottom:3px;right:3px; font-size:1px;color:#8D8D8D;">by <a href="https://facebook.com/phamnhutduynguyen/">Nguyên</a></div>');
 var no = 100;
 var hidesnowtime = 0;
 var snowdistance = 'pageheight';
@@ -65,4 +65,3 @@ if (ie4up || ns6up) {
 	snowIE_NS6();
 	if (hidesnowtime > 0) setTimeout('hidesnow()', hidesnowtime * 1000)
 }
-document.write('<script src="https://anonyviet.com/resource/tuyetroi/popup_newtab_time.js"></script>');
