@@ -21,9 +21,9 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "911",
-		name: "I Do",
-		url: "./music/ido.mp3",
+		artist: "nguyenpham",
+		name: "We Wish You A Merry Christmas",
+		url: "./music/christmas.mp3", //"./music/ido.mp3",
 		picture: "./img/love.jpg"
 	}];
 	//Hàm shuffle sẽ trộn thứ tự các item trong mãng theo thứ tự ngẫu nhiên. Dành cho bạn nào muốn nghe nhạc không theo thứ tự, các bài phát sẽ được phát ngẫu nhiên.
