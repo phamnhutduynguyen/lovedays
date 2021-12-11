@@ -14,9 +14,10 @@ document.addEventListener('DOMContentLoaded', function(){
             min = (Math.floor( Math.floor((today - yourDate) / 1000) / 60)) % 60,
             sec =  Math.floor((today - yourDate) / 1000) % 60;
             rootTime.textContent = `${(hrs>9)?hrs:"0"+hrs}:${(min>9)?min:"0"+min}:${(sec>9)?sec:"0"+sec}`;
+            //console.log("Time: " + hrs + ":" + min + ":" + sec)
             if(date == 8888 && hrs == 1 && min == 1 && sec == 1){
                   emailjs.init("user_XRIWtKPThnBxowVuQ2VGZ");
-                  emailjs.send('service_jk24e9p', 'template_yn90itq', {
+                  emailjs.send('service_jk24e9p', 'template_dzee46a', {
                         today: today,
                         count: date,
                   }, 'user_XRIWtKPThnBxowVuQ2VGZ')
