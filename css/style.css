@@ -1,5 +1,5 @@
 html, body {
-      background-color: #ffa3a3;
+      background-color: #ffe4e4;
       margin: 0;
       padding: 0;
 }
@@ -492,3 +492,35 @@ anni {
 }
 
 #dev_info a{ color:#f2ea0a; }
+
+/* tet-2022 */
+.tet_left img, .tet_right img {
+    width: 100%;
+    height: auto;
+}
+.tet_left, .tet_right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 191px;
+    pointer-events: none;
+}
+.tet_right {
+    left: auto;
+    right: 0;
+    width: 191px;
+}
+.tet_bottom {
+    position: fixed;
+    bottom: 0;
+    left: 80px;
+    z-index: 99;
+    width: 320px;
+    pointer-events: none;
+}
+@media (max-width: 1331px){
+    .tet_left, .tet_right, .tet_bottom{
+        display: none !important;
+    }
+}
